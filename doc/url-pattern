@@ -1,0 +1,4 @@
+/和/*的区别：
+/*：可以匹配所有url，包括带扩展名的，一般只用在过滤器上。
+/：它是tomcat的默认servlet，当其他的url-pattern匹配不上时都会走这个servlet。
+所以如果我们的项目中配置了"/"，会覆盖掉tomcat中的default servlet
